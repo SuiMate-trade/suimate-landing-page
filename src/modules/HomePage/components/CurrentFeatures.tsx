@@ -4,7 +4,7 @@ const CurrentFeatures = () => {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center gap-5">
       <p className="text-5xl font-semibold text-black-900">
-        What can users do with <span className="text-blue-200">SuiMate</span>{" "}
+        What can users do on <span className="text-blue-200">SuiMate</span>{" "}
         currently?
       </p>
       <div className="w-full flex flex-col items-center justify-center gap-5">

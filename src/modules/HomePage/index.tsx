@@ -1,5 +1,8 @@
 import React from "react";
+import Conclusion from "./components/Conclusion";
 import CurrentFeatures from "./components/CurrentFeatures";
+import DetailedFuturePlans from "./components/DetailedFuturePlans";
+import FuturePlans from "./components/FuturePlans";
 import Hero from "./components/Hero";
 import WhatIsSuimate from "./components/WhatIsSuimate";
 
@@ -9,6 +12,9 @@ const HomePageModule = () => {
       <Hero />
       <WhatIsSuimate />
       <CurrentFeatures />
+      <FuturePlans />
+      <DetailedFuturePlans />
+      <Conclusion />
     </div>
   );
 };
