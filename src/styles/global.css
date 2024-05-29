@@ -29,3 +29,17 @@ body {
   top: 14px !important;
   color: #f6f7f8 !important;
 }
+
+.bg-gradient-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(51, 56, 61, 0.6) 11.14%,
+    rgba(20, 23, 26, 0.6) 91.43%
+  );
+}
+
+.border-glass-1 {
+  box-shadow:
+    1px 1px 0px 0px rgba(100, 100, 100, 0.5) inset,
+    -1px -1px 0px 0px rgba(100, 100, 100, 0.2) inset;
+}

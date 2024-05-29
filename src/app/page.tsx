@@ -11,15 +11,15 @@ export async function generateMetadata() {
 
 export default function Index() {
   return (
-    <div className="w-full flex justify-center items-center relative overflow-hidden max-h-screen">
+    <div className="w-full flex justify-center items-start relative overflow-auto max-h-screen">
       <Header />
-      <div className="w-full flex justify-center items-center z-10">
+      <div className="w-full flex justify-center items-start z-10">
         <HomePageModule />
       </div>
       <img
         src="/assets/images/background.png"
         alt="SuiMate"
-        className="absolute top-0 left-0 w-full h-full object-cover bottom-0 right-0 z-0"
+        className="fixed top-0 left-0 w-full h-full object-cover bottom-0 right-0 z-0"
       />
     </div>
   );
