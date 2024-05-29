@@ -1,13 +1,35 @@
 import Header from "@/components/Header";
 import HomePageModule from "@/modules/HomePage";
+import { Metadata } from "next";
 
-export async function generateMetadata() {
-  return {
-    title: "SuiMate - The only platform for all things DeFi on Sui",
+export const metadata: Metadata = {
+  title: "SuiMate - The only platform for all things DeFi on Sui",
+  description:
+    "A platform to analyze and get insights on all on-chain activity in the Sui DeFi space",
+  applicationName: "SuiMate",
+  authors: {
+    name: "Harsh Kumar Jha",
+    url: "https://x.com/defi_or_defuck",
+  },
+  icons: [
+    {
+      rel: "icon",
+      url: "https://www.suimate.trade/assets/images/meta-image.png",
+    },
+    {
+      rel: "apple-touch-icon",
+      url: "https://www.suimate.trade/assets/images/meta-image.png",
+    },
+  ],
+  twitter: {
+    card: "summary_large_image",
+    creator: "@defi_or_defuck",
+    images: "https://www.suimate.trade/assets/images/meta-image.png",
+    title: "SuiMate",
     description:
-      "SuiMate is a platform built to cater to all your DeFi needs on Sui. From copy trading to liquidity provision to spot exchanges, we have it all. Not sure how to manage your crypto assets? Checkout where big traders have their money invested on SuiMate.",
-  };
-}
+      "A platform to analyze and get insights on all on-chain activity in the Sui DeFi space",
+  },
+};
 
 export default function Index() {
   return (
