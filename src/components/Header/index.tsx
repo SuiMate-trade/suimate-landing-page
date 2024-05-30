@@ -39,6 +39,15 @@ const Header = () => {
             Liquidity Supply
           </p>
         </a>
+        <a
+          href="https://t.me/suimate_defi_helper_bot"
+          target="_blank"
+          className="ml-10"
+        >
+          <p className="text-black-900 text-base font-medium hover:text-blue-200 transition-all duration-200">
+            DeFi Helper Bot
+          </p>
+        </a>
       </div>
     </div>
   );

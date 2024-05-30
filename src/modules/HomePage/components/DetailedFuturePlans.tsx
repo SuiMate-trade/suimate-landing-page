@@ -37,7 +37,7 @@ const DetailedFuturePlans = () => {
         </p>
         <p className="text-black-700 text-center text-sm">
           The world has enough noob people tipping influencers on OnlyFans for
-          just posting a picture. But SuiMate will give you a change to be a
+          just posting a picture. But SuiMate will give you a chance to be a
           grateful degen! <br />
           If you have been following a trader and their trade strategy for some
           time, and it has helped you grow your portfolio, you can tip them some
