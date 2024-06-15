@@ -1,5 +1,7 @@
 import React from "react";
 
+import Image from "next/image";
+
 const DetailedFuturePlans = () => {
   return (
     <div className="w-full flex flex-col items-center justify-start">
@@ -74,6 +76,15 @@ const DetailedFuturePlans = () => {
           most profits out of it.
         </p>
       </div>
+
+      <Image
+        src="/assets/images/post.png"
+        alt="Future Post"
+        className="mt-20 mb-20"
+        width={700}
+        height={500}
+        unoptimized
+      />
     </div>
   );
 };
